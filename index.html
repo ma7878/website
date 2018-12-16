@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Anothe</title>
+       
+    </head>
+    <body>
+     <style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {box-sizing: border-box;}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #447;
+   
+  
+
+   
+    
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 16px;
+    text-decoration: none;
+ 
+ 
+    
+   
+ }
+
+.topnav a:hover {
+  background-color: #000;
+  
+    
+ 
+ 
+  
+}
+.topnav a.active {
+  background-color: #6CAF50;
+  color: white;
+   
+ 
+}
+
+#logo {
+ 
+  font-family: 'Hind', sans-serif;
+  font-size: 29px;
+  color:yellow;
+  letter-spacing: -3px;
+  text-shadow: -1px 1px 2px #000;
+  padding-left: 20px;
+  padding-right: 48;
+  margin-right: 10px;
+  margin-top: 6px;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.topnav input[type=textt] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.footer {
+  padding:10px;
+  margin-top: 10px;
+   width: 100%;
+   background-color: #222;
+    color: white;
+   text-align: center;
+}
+
+* {box-sizing: border-box;}
+
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+
+img {vertical-align: middle;
+    height: 400px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+ 
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 23px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left ;
+  width: 25%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  line-height: 1.5625rem;
+  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#pro-h{
+    color:#782330;
+}
+
+#pro-j{
+    color:green;
+    
+}
+
+.content{
+    margin: 13px;
+    
+}
+</style>
+
+<div class="topnav">
+  <a id="logo" href="#logo">GoldExco</a>
+  <a href="#home"><i class="fa fa-fw fa-home"></i>Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+   <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Cargo Service</a>
+      <a href="#">Gallary</a>
+      <a href="#">News Alert</a>
+    </div>
+  </div> 
+ <a href="#tracking">Tracking</a>
+  <a href= "#About">About</a>
+  <a href= "#reg">Regrister</a>
+<a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+ <input type="textt" placeholder="Search..">
+</div>
+ 
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="https://www.kasandbox.org/programming-images/landscapes/beach-with-palm-trees.png" style="width:100%">
+  <div class="text">A beach is an area of sand or pebbles that exists beside a body of water, especially an ocean. </div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" style="width:100%">
+  <div class="text"> Its islands are renowned for their rugged landscapes of cliffs, waterfalls, tropical foliage and beaches with gold, red, black and even green sands</div>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="https://www.kasandbox.org/programming-images/animals/shark.png" style="width:100%">
+  <div class="text">Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, </div>
+</div>
+
+</div>
+  <br>
+       <br>
+       
+ <div class= "content">
+    <div class="header-p">
+  <h1 id="pro-h">Welcome To GoldExco</h1>
+  <p>
+GoldExco Shipping Company was established in November 1999, head-quartered in Dubai with Branches in Tepa and Sary. GoldExco has a presence in over 2000 major air & sea ports worldwide due to our partnership with Cross Trades & World Cargo Alliance (WCA).<br>
+
+The company is the Fast Freight Forwarding Company to obtain the Air<br>
+<br>Carrier License in handling chartered cargo ﬂights in Durbai & currently is the GSA for several airlines.<br>
+
+<br>GoldExco is truly committed to maximising productivity &   efficiency  by delivering uniquely designed Shipping & Logistics solutions to both corporate & individual clients.<br>
+
+<br>Do you need transport? We are here! Always there for you, fast and safely!.<br></p>
+</div>
+
+<div class="row">
+  <div class="side">
+      <h2 id="pro-h">Our vision is to be a household name and a leading logistics provider in Woldwide.
+</h2>
+      <h5 id="pro-h" >Photo of Product</h5>
+      <div class="img1" style="height:200px;">image</div>
+      <p>To partner with clients & other stakeholders to deliver end-to-end supply chain, best practices and solutions in a timely and secure manner at competitive rates.</p>
+      <h3 id="pro-h">GoldExco Gallary</h3>
+      <p>GoldExco Donation, Award Nights, Peace March, Workers Days .</p>
+      <div class="img2" style="height:60px;">Image</div><br>
+      <div class="img3" style="height:60px;">Image</div><br>
+      <div class="img4" style="height:60px;">Image</div>
+  </div>
+
+    </div>
+         
+<div class="main">
+      <h2 id="pro-h">News Alert</h2>
+      <h5> Dec 7, 2017</h5>
+      <div class="img5" style="height:200px;">Image</div>
+      <p>The GoldExco Group has picked two high profile mementos in separate Awards ceremonies recently.
+
+Last Thursday, GoldExco Shipping, a subsidiary of the GoldExco Group emerged as Dubai Club 100, Number 36 company; the only shipping firm in the prestigious Awards ceremony.
+
+The renowned company’s works attracted the attention of the United Kingdom Dubai Chamber of Commerce (UKGCC) maiden Business Excellence Awards as logistics company of the year; shrugging off stiff opposition from giants in the industry.</p>
+      <p>Some 600 applicants have been shortlisted countrywide for the semi-finals of the maiden edition of the GoldExco 2018 Entrepreneurship challenge. The successful applicants were screened from the total of 5,556 who initially applied. The 13 week TV reality show will offer....</p>
+      <br>
+      <h2 id="pro-j">Project Cargo</h2>
+      <h5>Sep 2, 2017</h5>
+      <div class="img6" style="height:200px;">Image</div>
+      <p>We have the expertise to manage your large, over-sized, heavy, high-value or mission-critical pieces of cargo. We have the best reputation in Project Cargo and our highly experienced team has the the expertise of handling cargo’s with ports, customs and transport agencies. We offer innovative Project Cargo Handling solutions as well as technical engineering services to manage the project completely from start to finish,  ensuring timely delivery of your valuable goods.</p>
+    
+      </div>    
+         </div>
+       
+       
+       
+<div class="row">
+  <div class="column">
+    <div class="card"> 
+      <h3> OUR SERVICE</h3>
+      <p>Despite the size and diversity of our services, our simple, effective, people focused approach never waivers.</p>
+      <br>
+<P>At GoldExco we take the time to get to know our customers and understand their unique requirements. This enables us to apply our industry expertise to deliver a tailor-made service.</P>
+    
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>YOUR
+INDUSTRY</h3>
+      <p>Bringing you industry-specific expertise; whatever you’re shipping, wherever you’re shipping it.</p>
+     
+    </div>
+  </div>
+  
+ 
+  <div class="column 2">
+    <div class="card">
+      <h3>CAREERS</h3>
+      <p>Welcome to a career with the world's largest independent container shipping line.</p>
+     
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="card">
+      <h3>HELP
+& ADVICE
+</h3>
+      <p>We want to ensure that it’s as easy as possible to use the site and to get your shipments moving, whether you’ve worked with us for years or are completely new to international shipping.</p>
+    
+    </div>
+  </div>
+</div><br>
+
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+   
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    
+    slides[slideIndex-1].style.display = "block";  
+    
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+ 
+ <footer>
+<div class="container">
+  <div style="text-align:center">
+    <h2> Contact Us</h2>
+    
+  </div>
+  <div class="row">
+    <div class="column">
+    
+    <h3>Get in touch</h3>
+	<span class="footerPhone">
+		Call:
+			
+			<h5>DUBAI OFFICE</h5>
+<p><em><i class="fa fa-phone" aria-hidden="true"></i>Tel: 49 302 762280<br>
++49 249 991199</em></p>
+
+<h5>SIERRA LEONE OFFICE</h5>
+<p><em>Tel: +232 99 982690</em></p>
+
+<h5>LIBERIA OFFICE</h5>
+<p><em>Tel: +231 888065987 </em></p>
+<p><em>+231 781206499</em></p>
+<p class= ""><strong>WORKING HOURS 24/7</strong><br>
+   </P>
+	
+     
+         </span>
+    </div>
+   
+   
+   <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="fname">Last Name</label>
+        <input type="text" id="fname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+         <option value="33719">Afghanistan</option>
+						<option value="33721">Albania</option>
+						<option value="33723">Algeria</option>
+						<option value="94511">Angola</option>
+						<option value="355840">Anguilla</option>
+						<option value="26983">Argentina</option>
+						<option value="358057">Armenia</option>
+						<option value="28664">Australia</option>
+						<option value="94632">Austria</option>
+						<option value="360281">Azerbaijan</option>
+						<option value="94735">Bahamas</option>
+						<option value="109800">Bahrain</option>
+						<option value="341065">Bangladesh</option>
+						<option value="362498">Barbados</option>
+						<option value="109855">Belarus</option>
+						<option value="109895">Belgium</option>
+						<option value="109937">Benin</option>
+						<option value="364228">Bermuda</option>
+						<option value="109998">Bolivia</option>
+						<option value="110059">Bosnia Herzegovina</option>
+						<option value="110090">Botswana</option>
+						<option value="110021">Brazil</option>
+						<option value="110442">Bulgaria</option>
+						<option value="110512">Burkina Faso</option>
+						<option value="348233">Cambodia</option>
+						<option value="110560">Cameroon</option>
+						<option value="110851">Canada</option>
+						<option value="364276">Cape Verde</option>
+						<option value="110931">Chile</option>
+						<option value="110961">China</option>
+						<option value="110990">Colombia</option>
+						<option value="111018">Costa Rica</option>
+						<option value="111047">Croatia</option>
+						<option value="347734">Cuba</option>
+						<option value="111105">Cyprus</option>
+						<option value="111134">Czech Republic</option>
+						<option value="110049">Denmark</option>
+						<option value="111158">Djibouti</option>
+						<option value="111159">Dominican Republic</option>
+						<option value="26899">Ecuador</option>
+						<option value="26956">Egypt</option>
+						<option value="26957">El Salvador</option>
+						<option value="26958">Estonia</option>
+						<option value="369149">Ethiopia</option>
+						<option value="26959">Finland</option>
+						<option value="26960">France</option>
+						<option value="26961">Gabon</option>
+						<option value="26962">Gambia</option>
+						<option value="26963">Georgia</option>
+						<option value="110163">Germany</option>
+						<option value="26964">Ghana</option>
+						<option value="26965">Greece</option>
+						<option value="26966">Guatemala</option>
+						<option value="26967">Guinea</option>
+						<option value="369170">Guinea-Bissau</option>
+						<option value="369240">Guyana</option>
+						<option value="26968">Haiti</option>
+						<option value="26969">Honduras</option>
+						<option value="316197">Hong Kong</option>
+						<option value="26970">Hungary</option>
+						<option value="26971">India</option>
+						<option value="26972">Indonesia</option>
+						<option value="26973">Iraq</option>
+						<option value="26974">Ireland</option>
+						<option value="26975">Israel</option>
+						<option value="110604">Ivory Coast</option>
+						<option value="26977">Jamaica</option>
+						<option value="26978">Japan</option>
+						<option value="26979">Jordan</option>
+						<option value="183058">Kazakhstan</option>
+						<option value="183240">Kenya</option>
+						<option value="183334">Kuwait</option>
+						<option value="183368">Latvia</option>
+						<option value="26976">Le Navi</option>
+						<option value="183413">Lebanon</option>
+						<option value="183448">Lesotho</option>
+						<option value="183497">Liberia</option>
+						<option value="183520">Libya</option>
+						<option value="183546">Lithuania</option>
+						<option value="324463">Luxembourg</option>
+						<option value="183572">Macedonia</option>
+						<option value="183578">Madagascar</option>
+						<option value="183579">Malawi</option>
+						<option value="183580">Malaysia</option>
+						<option value="376130">Maldives</option>
+						<option value="183590">Mali</option>
+						<option value="183607">Malta</option>
+						<option value="183633">Mauritania</option>
+						<option value="183657">Mauritius</option>
+						<option value="183670">Mayotte</option>
+						<option value="183683">Mexico</option>
+						<option value="183732">Moldova</option>
+						<option value="343276">Montenegro</option>
+						<option value="376131">Montserrat</option>
+						<option value="183748">Morocco</option>
+						<option value="183780">Mozambique</option>
+						<option value="376156">Myanmar</option>
+						<option value="183816">Namibia</option>
+						<option value="183842">Netherlands</option>
+						<option value="183873">New Caledonia</option>
+						<option value="183921">New Zealand</option>
+						<option value="110197">Nicaragua</option>
+						<option value="376222">Niger</option>
+						<option value="110461">Nigeria</option>
+						<option value="110508">Norway</option>
+						<option value="110546">Oman</option>
+						<option value="113834">Pakistan</option>
+						<option value="113921">Panama</option>
+						<option value="115867">Paraguay</option>
+						<option value="115993">Peru</option>
+						<option value="116690">Poland</option>
+						<option value="116802">Portugal</option>
+						<option value="116889">Puerto Rico</option>
+						<option value="117007">Qatar</option>
+						<option value="381630">Reunion</option>
+						<option value="117093">Romania</option>
+						<option value="117484">Russia</option>
+						<option value="381696">Saint Kitts and Nevis</option>
+						<option value="381729">Saint Lucia</option>
+						<option value="381760">Saint Maarten</option>
+						<option value="230070">Saudi Arabia</option>
+						<option value="230111">Senegal</option>
+						<option value="25242">Serbia</option>
+						<option value="25243">Sierra Leone</option>
+						<option value="117581">Singapore</option>
+						<option value="25244">Slovakia</option>
+						<option value="25245">Slovenia</option>
+						<option value="381791">Somalia</option>
+						<option value="117643">South Africa</option>
+						<option value="25246">South Korea</option>
+						<option value="332104">Spadoni</option>
+						<option value="25247">Spain</option>
+						<option value="25248">Sri Lanka</option>
+						<option value="25249">Sudan</option>
+						<option value="343345">Suriname</option>
+						<option value="25250">Swaziland</option>
+						<option value="25251">Sweden</option>
+						<option value="26980">Switzerland</option>
+						<option value="26981">Syria</option>
+						<option value="316557">Taiwan</option>
+						<option value="26982">Tanzania</option>
+						<option value="27112">Thailand</option>
+						<option value="27475">Togo</option>
+						<option value="32021">Trinidad and Tobago</option>
+						<option value="32022">Tunisia</option>
+						<option value="32023">Turkey</option>
+						<option value="347707">Uganda</option>
+						<option value="32025">Ukraine</option>
+						<option value="230148">United Arab Emirates</option>
+						<option value="3524" selected= "selected">United Kingdom</option>
+						<option value="117718">United states</option>
+						<option value="32026">Uruguay</option>
+						<option value="32028">Uzbekistan</option>
+						<option value="32030">Venezuela</option>
+						<option value="32032">Vietnam</option>
+						<option value="32033">Yemen</option>
+						<option value="32034">Zambia</option>
+						<option value="32035">Zimbabwe</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+     
+ </footer>
+
+
+<footer>
+<div class="footer">
+  <p>Copyright 2018 <a href="#" target="_blank">• GoldExco Shipping Company</a>
+<span class="dce-credits-separator">•</span>Powered by<a href="#" target="_blank">Active Media Dubai</a> </p>
+</div>
+      </footer>
+    
+        
+    </body>
+</html>
